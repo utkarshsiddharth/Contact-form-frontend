@@ -52,7 +52,7 @@ const FormPage = () => {
   return (
     <div className="container">
       <div className="logo-container">
-        <img src="/heritage-logo.svg" alt="Heritage Lane & Co" className="mx-auto" />
+        <img src="/heritagelogo1.png" alt="Heritage Lane & Co" className="mx-auto" />
       </div>
       <h1 className="text-center text-gray-800 mb-8 font-playfair font-semibold">User Registration Form</h1>
       <form onSubmit={handleSubmit}>

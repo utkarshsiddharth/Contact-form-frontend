@@ -16,9 +16,9 @@ const CataloguePage = () => {
   return (
     <div className="container">
       <div className="logo-container">
-        <img src="/heritage-logo.svg" alt="Heritage Lane & Co" className="mx-auto" />
+        <img src="/heritagelogo1.png" alt="Heritage Lane & Co" className="mx-auto" />
       </div>
-      <h1 className="text-center text-gray-800 mb-8 font-playfair font-semibold">Catalogue Page</h1>
+      <h1 className="text-center text-gray-800 mb-8 font-playfair font-bold">Catalogue Page</h1>
       
       <div className="text-center mb-8">
         <button 
@@ -30,15 +30,15 @@ const CataloguePage = () => {
       </div>
 
       <div className="comments">
-        <p>PS: As promised, your exclusive 15% discount is waiting! 🌟 Use code INVITE15 on our website or show this email in-store to unlock savings across our entire range.</p>
+        <p className='text-gray-800 mb-8 font-playfair'>PS: As promised, your exclusive 15% discount is waiting! 🌟 Use code INVITE15 on our website or show this email in-store to unlock savings across our entire range.</p>
       </div>
 
-      <button 
+      {/* <button 
         onClick={goBack}
         className="back-btn hover:bg-green-700 transition-colors duration-200"
       >
         Back to Form
-      </button>
+      </button> */}
     </div>
   );
 };
